@@ -1,10 +1,11 @@
 import './App.css';
 
 function App() {
+  const logo = `${process.env.REACT_APP_IMAGE_BASE_URL}/logo.svg`;
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://lf-embed.vercel.app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg" className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
