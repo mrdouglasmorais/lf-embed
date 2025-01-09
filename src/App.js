@@ -14,11 +14,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www4.lifetimepc.com.br/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Acesse a lifetime e saiba mais
         </a>
       </header>
     </div>
